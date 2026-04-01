@@ -71,6 +71,10 @@ jobs:
            echo "Missing required secrets: DOCKERHUB_USERNAME and/or DOCKERHUB_TOKEN"
            exit 1
          fi
+         if [ "$DOCKERHUB_USERNAME" != "bowiehikks" ]; then
+           echo "DOCKERHUB_USERNAME must be 'bowiehikks' for tags under bowiehikks/601_module8"
+           exit 1
+         fi
 
      - uses: actions/checkout@v4
      
