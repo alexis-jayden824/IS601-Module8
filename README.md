@@ -53,8 +53,8 @@ git --version
 Set your name and email so Git tracks your commits properly:
 
 ```bash
-git config --global user.name "Your Name"
-git config --global user.email "your_email@example.com"
+git config --global user.name "alexis-jayden824"
+git config --global user.email "jma88@njit.edu"
 ```
 
 Confirm the settings:
